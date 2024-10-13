@@ -23,5 +23,5 @@ git remote add git remote add origin https://github.com/kulrapat/react-docker3.g
 
 ถ้า commit โค้ดแล้วขึ้นกากกาบาท
     1.ไปสร้าง docker access token
-    2.ตรวจสอบและแก้ไขไฟล์ docker-build.yml สิ่งที่ต้องแก้ไขมี docker build และ docker push
-    
+    2.ตรวจสอบและแก้ไขไฟล์ docker-build.yml สิ่งที่ต้องแก้ไขมี docker build และ docker push 
+    3.เข้า github ไปที่ project ตัวเองแล้วเข้า setting ไปที่ Secrets แล้วเลือก Actions กด New สร้าง Username กับ Usertoken   

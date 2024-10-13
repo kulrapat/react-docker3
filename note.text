@@ -12,3 +12,16 @@
 7.docker build -t kulrapat/react-docker-test3:0.1 .
 
 8.docker run -d -p 3000:3000 --name react-docker kulrapat/react-docker-test3:0.1
+
+docker push kulrapat/react-docker-test3:0.1
+
+git remote -v
+
+git remote remove origin
+
+git remote add git remote add origin https://github.com/kulrapat/react-docker3.git
+
+ถ้า commit โค้ดแล้วขึ้นกากกาบาท
+    1.ไปสร้าง docker access token
+    2.ตรวจสอบและแก้ไขไฟล์ docker-build.yml สิ่งที่ต้องแก้ไขมี docker build และ docker push
+    
